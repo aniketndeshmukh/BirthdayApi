@@ -4,7 +4,7 @@ import './mobile.css';
 const App = () => {
   const[data,setData]=useState([])
   useEffect(()=>{
-fetch("./data.js")
+fetch("https://jsonplaceholder.typicode.com/users")
 .then(res=>res.json())
 .then(d=>setData(d))
   },[data])
@@ -16,7 +16,7 @@ fetch("./data.js")
             <p>{x.name}</p> 
           </section>
         )
-      })}</div>
+      })}<center><button className='Button'>Clear</button></center></div>
     </div>
   )
 }
