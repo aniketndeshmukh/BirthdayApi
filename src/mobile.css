@@ -1,0 +1,24 @@
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    height: 800px;
+    
+}
+.mob{
+
+  width: 400px;
+  height: auto;
+  background-color: white;
+  border: 7px solid black;
+  box-shadow: 0 0 10px black;
+  border-radius: 25px;
+}
